@@ -294,7 +294,7 @@ class Square extends React.Component {
 
 Now we'll change the Square's `render` method to display the current state's value when clicked:
 
-* Replace `this.props.value` with `this.state.value` inside the `<button>` tag.
+* Replace `this.props.value` with `this.state.value` inside the `<button>` element.
 * Replace the `onClick={...}` event handler with `onClick={() => this.setState({value: 'X'})}`.
 * Put the `className` and `onClick` props on separate lines for better readability.
 
